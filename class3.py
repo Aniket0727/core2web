@@ -1,7 +1,21 @@
-class first:
-    print("hi")
     
-f=first()
+# def fun():
+#     pass
+    
+# print(type(fun))
 
 
-print("new msg 7")
+class function:
+
+    def __new__(self):
+        print("new: ",self)
+        return super().__new__(self)
+        
+            
+    def __init__(a):
+        print("init: " ,a)
+        
+        
+
+f=function()
+
