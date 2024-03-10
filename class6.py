@@ -17,4 +17,4 @@ class first:
 f1=first(10,"Java")
 
 f1.info()
-
+first.info()

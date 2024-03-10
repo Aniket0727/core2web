@@ -14,20 +14,20 @@ class first:
         
         #static method #store in class name space both access class and object
     @staticmethod
-    def info3(self):
+    def info3():
         print("static method")
-        print(self)
+        
     
 f1=first()
 
-# f1.info1()
-# first.info1()
+f1.info1()
+first.info1()
 
 f1.info2()
-# first.info2()
+# first.info2()  # error - class can not call instance method
 
-# f1.info3()
-# first.info3()
+f1.info3()
+first.info3()
 
 
 
