@@ -5,7 +5,7 @@ class Company(object):
         print("In constructure")
         self.compName=compName
         self.loc=loc
-    
+     
     def compInfo(self):
         print(self.compName)
         print(self.loc)
