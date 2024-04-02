@@ -1,10 +1,22 @@
-# program1:
 
-num1=int(input("Enter First Number: "))
-num2=int(input("Enter Second Number: "))
+# from program2 import ICC  #from Moule_name import class_name
+class BCCI():
+    def __init__(self):
+        print("BCCI")
+        
+class IPL(BCCI):
+    def __init__(self):
+        print("IPL")
 
-if(num1>num2):
-    print(num1," is grater than ",num2)
-    
+
+if __name__=='__main__':
+    IPL()
 else:
-    print(num2 ," is grater than ",num1)
+    BCCI()
+
+
+
+
+# obj=IPL()
+# print(IPL.mro())
+# print(IPL.__mro__)

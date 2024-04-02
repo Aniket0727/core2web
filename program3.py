@@ -1,8 +1,14 @@
-# program3
-num=int(input("Enter Number: "))
+from program4 import *
+class Core2Web():
+    def __init__(self):
+        print("In Core2Web")
 
-if(num %2)==0:
-    print(num," is Even Number")
+class Incubators(Core2Web):
     
+    def __init(self):
+        print("In Incubators object")
+        super().__init__()
+if __name__=='__main__':
+    Incubators()
 else:
-    print(num ," is Odd Number")
+    Biencaps()

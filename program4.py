@@ -1,8 +1,10 @@
-# program4
-num=int(input("Enter Number: "))
+# from program3 import *
 
-if(num %5)==0:
-    print(num," is divisible by 5 ")
+class Biencaps():
     
+    def __init__(self):
+        print("In Biencaps Object")
+if __name__=='__main':
+    print("In module Biencaps")
 else:
-    print(num ," is not divisible by 5 ")
+    Core2Web()

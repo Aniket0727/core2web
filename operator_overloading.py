@@ -2,7 +2,6 @@
 
 class Demo:
     x=10
-
     
 class Memo:
     def __eq__(self,obj):

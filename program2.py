@@ -1,9 +1,10 @@
-# program2
+from program1 import IPL
 
-num=int(input("Enter Number: "))
+class ICC:
+    def __init__(self):
+        print("ICC")
 
-if(num>=0):
-    print(num," is Positive Number")
-    
+if __name__=='__main__':
+    print("ICC program2")
 else:
-    print(num ," is Negative Number")
+    IPL()
