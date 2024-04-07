@@ -1,13 +1,14 @@
-class parent:
-    def marry(self):
-        print("Deepika")
+from abc import *
 
-class child(parent):
-    def marry(self):
-        # super().marry()
-        print("Alia")
-        
+class Demo(ABC):
+    def __init__(self):
+        print("Const Demo")
+    
+    @abstractmethod
+    def fun(self):
+        pass
 
-child()
-# obj=parent()
-# obj.marry()
+print(type(ABC))
+print(ABC.__base__)
+# obj=Demo()
+# obj.fun()
